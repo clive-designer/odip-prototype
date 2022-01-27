@@ -6,9 +6,9 @@ const Navbar = () => {
             <div className="logo">
                 <h1>Navbar list</h1>
             </div>
-            <Link><a>Result accept</a></Link>
-            <Link><a>Access dashboard</a></Link>
-            <Link><a>Mortgage dashboard</a></Link>
+            <Link href="/"><a>Home</a></Link>
+            <Link href="/result-accept"><a>Result accept</a></Link>
+            <Link href="/"><a>Mortgage dashboard</a></Link>
         </nav>
     );
 }
