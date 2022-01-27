@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1>ODIP prototype</h1>
+      <h2>Start page.</h2>
     </div>
   )
 }
